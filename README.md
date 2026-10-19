@@ -57,4 +57,4 @@ first two numbers match. Servers report theirs at `/api/version`.
 All rights reserved. A license has not been chosen yet. Until one is published here, you may download and run these
 releases for your own use, but no other rights are granted.
 
-© 2026 Branch Chat. Branch Chat™ is a trademark.
+© 2026 BranchChat. Branch Chat™ is a trademark of BranchChat.
