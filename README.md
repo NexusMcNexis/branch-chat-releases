@@ -7,22 +7,22 @@ Start at **https://branchchat.app**, or run your own server with the packages be
 This repository only hosts release downloads. Get the newest version at
 **https://github.com/NexusMcNexis/branch-chat-releases/releases/latest**.
 
-## Downloads (26.10.11)
+## Downloads (26.10.11.4)
 
 | Platform | File | Notes |
 |---|---|---|
 | Android | `BranchChat-26.10.11.apk` | Open the file on your phone and allow installs from your browser. Installs over older versions; you stay signed in |
-| Linux x86_64 | `BranchChat-26.10.11-x86_64.AppImage` | Any distro: `chmod +x` and run (needs FUSE 2, or use `--appimage-extract-and-run`). Updates itself |
-| Linux arm64 | `BranchChat-26.10.11-arm64.AppImage` | Raspberry Pi 4/5 (64-bit OS) and other arm64 desktops |
-| Debian / Ubuntu | `BranchChat-26.10.11-amd64.deb` | `sudo apt install ./BranchChat-26.10.11-amd64.deb` |
-| Fedora / openSUSE | `BranchChat-26.10.11-x86_64.rpm` | `sudo dnf install ./BranchChat-26.10.11-x86_64.rpm` |
-| Linux (portable) | `BranchChat-26.10.11-x64.tar.gz`, `BranchChat-26.10.11-arm64.tar.gz` | Extract anywhere and run `./branch-chat` |
+| Linux x86_64 | `BranchChat-26.10.11.4-x86_64.AppImage` | Any distro: `chmod +x` and run (needs FUSE 2, or use `--appimage-extract-and-run`). Updates itself |
+| Linux arm64 | `BranchChat-26.10.11.4-arm64.AppImage` | Raspberry Pi 4/5 (64-bit OS) and other arm64 desktops |
+| Debian / Ubuntu | `BranchChat-26.10.11-amd64.deb` (in the v26.10.11 release) | `sudo apt install ./BranchChat-26.10.11-amd64.deb` |
+| Fedora / openSUSE | `BranchChat-26.10.11-x86_64.rpm` (in the v26.10.11 release) | `sudo dnf install ./BranchChat-26.10.11-x86_64.rpm` |
+| Linux (portable) | `BranchChat-26.10.11-x64.tar.gz`, `BranchChat-26.10.11-arm64.tar.gz` (in the v26.10.11 release) | Extract anywhere and run `./branch-chat` |
 | Server (native / Docker) | `branch-chat-server-<version>-install.tar.gz`, `branch-chat-server-<version>-docker-compose.tar.gz` | In the releases that include server packages (see below) |
 | iPhone / iPad | coming soon | |
 | Windows / macOS | coming soon | Use https://branchchat.app in your browser for now |
 
-Every release includes a checksum file (`SHA256SUMS-26.10.11.txt` for this one). Check a download with
-`sha256sum -c SHA256SUMS-26.10.11.txt --ignore-missing`.
+Every release includes a checksum file (`SHA256SUMS-26.10.11.4.txt` for this one). Check a download with
+`sha256sum -c SHA256SUMS-26.10.11.4.txt --ignore-missing`.
 
 ## Desktop app
 Opens **branchchat.app** first. Choose *Use my own server* to connect to any Branch Chat server, and add or switch
