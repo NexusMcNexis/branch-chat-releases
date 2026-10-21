@@ -11,7 +11,7 @@ This repository only hosts release downloads. Get the newest version at
 
 | Platform | File | Notes |
 |---|---|---|
-| Android | `BranchChat-26.10.11.apk` | Open the file on your phone and allow installs from your browser. Installs over older versions; you stay signed in |
+| Android | `BranchChat-26.10.11.4.apk` | Open the file on your phone and allow installs from your browser. Installs over older versions; you stay signed in |
 | Linux x86_64 | `BranchChat-26.10.11.4-x86_64.AppImage` | Any distro: `chmod +x` and run (needs FUSE 2, or use `--appimage-extract-and-run`). Updates itself |
 | Linux arm64 | `BranchChat-26.10.11.4-arm64.AppImage` | Raspberry Pi 4/5 (64-bit OS) and other arm64 desktops |
 | Debian / Ubuntu | `BranchChat-26.10.11-amd64.deb` (in the v26.10.11 release) | `sudo apt install ./BranchChat-26.10.11-amd64.deb` |
