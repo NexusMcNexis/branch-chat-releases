@@ -18,7 +18,7 @@ This repository only hosts release downloads. Get the newest version at
 | Fedora / openSUSE | `BranchChat-26.10.11-x86_64.rpm` (in the v26.10.11 release) | `sudo dnf install ./BranchChat-26.10.11-x86_64.rpm` |
 | Linux (portable) | `BranchChat-26.10.11-x64.tar.gz`, `BranchChat-26.10.11-arm64.tar.gz` (in the v26.10.11 release) | Extract anywhere and run `./branch-chat` |
 | Server (native / Docker) | `branch-chat-server-<version>-install.tar.gz`, `branch-chat-server-<version>-docker-compose.tar.gz` | In the releases that include server packages (see below) |
-| iPhone / iPad | coming soon | |
+| iPhone / iPad | coming soon | Use https://branchchat.app in your browser for now |
 | Windows / macOS | coming soon | Use https://branchchat.app in your browser for now |
 
 Every release includes a checksum file (`SHA256SUMS-26.10.11.4.txt` for this one). Check a download with
