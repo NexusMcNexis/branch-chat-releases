@@ -53,6 +53,10 @@ Full guide: `docs/self-hosting.md` inside the package, plus `docs/server/raspber
 One version number for everything: `YY.MM.PATCH` (26.10 = October 2026). Apps and servers work together when the
 first two numbers match. Servers report theirs at `/api/version`.
 
+## Support BranchChat
+BranchChat is free, with no ads and no selling your data. If you'd like to help cover hosting and development,
+you can leave an optional tip on [Ko-fi](https://ko-fi.com/branchchat). Thank you! 💙
+
 ## License
 All rights reserved. A license has not been chosen yet. Until one is published here, you may download and run these
 releases for your own use, but no other rights are granted.
