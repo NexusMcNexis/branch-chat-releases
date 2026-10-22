@@ -33,6 +33,14 @@ servers later in *Branch Chat → Servers…* (Ctrl+Shift+S). Requirements: 64-b
 Requirements: a 64-bit Linux machine (Raspberry Pi 4/5 with 2 GB+, any small PC, VM or Proxmox guest), Python 3.9+ for
 the native install or Docker, and a domain on Cloudflare (free plan) for access from anywhere, or a home network.
 
+### What it runs on
+- **No PHP and no database server.** The server is Python (standard library web server); data is stored as files in one data folder.
+- **Python packages:** only `cryptography` (used for Web Push notifications). Everything else is built into Python.
+- **System packages:** `curl` (push notification delivery) and `ca-certificates` (secure connections).
+- **Docker image:** based on `python:3.13-slim`, built for amd64 and arm64 (Raspberry Pi 4/5).
+- **Front end:** plain HTML, CSS and JavaScript, with no framework. Encryption runs in the browser. Bundled browser libraries: ffmpeg (video trim/resize), libheif (iPhone HEIC photos), mp4box and mp4-muxer (MP4 handling).
+- **Email (optional):** any SMTP or Postmark account, for sign-up codes and password resets.
+
 ```bash
 tar xzf branch-chat-server-<version>-install.tar.gz
 cd branch-chat-server-<version>
